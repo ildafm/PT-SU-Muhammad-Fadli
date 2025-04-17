@@ -68,7 +68,7 @@
                     <label for="deskripsi">Deskripsi Kendaraan</label>
                     <input required type="text" name='deskripsi'
                         class="form-control @error('deskripsi') is-invalid @enderror"
-                        placeholder="Masukan Deskripsi Kendaraan" value="{{ $kendaraan->deskripsi }}">>
+                        placeholder="Masukan Deskripsi Kendaraan" value="{{ $kendaraan->deskripsi }}">
                     @error('deskripsi')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
