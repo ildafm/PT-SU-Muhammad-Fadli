@@ -20,6 +20,7 @@
                     <th>Nomor Polisi</th>
                     <th>Aksi</th>
                     <th>Merek</th>
+                    <th>Status</th>
                     <th>Kategori</th>
                     <th>Deskripsi</th>
                 </tr>
